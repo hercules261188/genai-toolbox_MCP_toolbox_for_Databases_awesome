@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.25.0](https://github.com/googleapis/genai-toolbox/compare/v0.24.0...v0.25.0) (2026-01-07)
+
+
+### Features
+
+* Add `embeddingModel` support ([#2121](https://github.com/googleapis/genai-toolbox/issues/2121)) ([9c62f31](https://github.com/googleapis/genai-toolbox/commit/9c62f313ff5edf0a3b5b8a3e996eba078fba4095))
+* Add tool to list store procedure ([#2156](https://github.com/googleapis/genai-toolbox/issues/2156)) ([cf0fc51](https://github.com/googleapis/genai-toolbox/commit/cf0fc515b57d9b84770076f3c0c5597c4597ef62))
+* **bigquery:** Make credentials scope configurable ([#2210](https://github.com/googleapis/genai-toolbox/issues/2210)) ([a450600](https://github.com/googleapis/genai-toolbox/commit/a4506009b93771b77fb05ae97044f914967e67ed))
+* **tools/looker:** Add ability to set destination folder with make_look and make_dashboard. ([#2245](https://github.com/googleapis/genai-toolbox/issues/2245)) ([eb79339](https://github.com/googleapis/genai-toolbox/commit/eb793398cd1cc4006d9808ccda5dc7aea5e92bd5))
+* **tools/postgressql:** Add Parameter `embeddedBy` config support ([#2151](https://github.com/googleapis/genai-toolbox/issues/2151)) ([17b70cc](https://github.com/googleapis/genai-toolbox/commit/17b70ccaa754d15bcc33a1a3ecb7e652520fa600))
+* Update CSQL MySQL prebuilt tools to use IAM ([#2202](https://github.com/googleapis/genai-toolbox/issues/2202)) ([731a32e](https://github.com/googleapis/genai-toolbox/commit/731a32e5360b4d6862d81fcb27d7127c655679a8))
+
+
+### Bug Fixes
+
+* Add import for cloudgda source ([#2217](https://github.com/googleapis/genai-toolbox/issues/2217)) ([7daa411](https://github.com/googleapis/genai-toolbox/commit/7daa4111f4ebfb0a35319fd67a8f7b9f0f99efcf))
+* **tools/alloydb-wait-for-operation:** Fix connection message generation ([#2228](https://github.com/googleapis/genai-toolbox/issues/2228)) ([7053fbb](https://github.com/googleapis/genai-toolbox/commit/7053fbb1953653143d39a8510916ea97a91022a6))
+* **tools/looker:** Looker client OAuth nil pointer error ([#2231](https://github.com/googleapis/genai-toolbox/issues/2231)) ([268700b](https://github.com/googleapis/genai-toolbox/commit/268700bdbf8281de0318d60ca613ed3672990b20))
+
 ## [0.24.0](https://github.com/googleapis/genai-toolbox/compare/v0.23.0...v0.24.0) (2025-12-19)
 
 
